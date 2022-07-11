@@ -4,6 +4,11 @@
 
 body p{
     font-size: 14px;
+    color: hsl(228, 12%, 48%);
+
+}
+body {
+    background-color: hsl(30, 38%, 92%);
 }
 
 h1{
@@ -12,14 +17,14 @@ font-family: 'Fraunces', serif;
 
 .component{
     margin: 100px 300px 0px 300px;
+    justify-content: center;
+
 
 }
 .card{
     overflow: hidden;
     border-radius: 25px;
-    max-width:800px;
-    max-height:300px;
-    width: auto;
+    width: 750px;
     height: auto;
 
 }
@@ -31,4 +36,44 @@ font-family: 'Fraunces', serif;
     flex-direction: column;
 }
 
+ img {
+    width: 400px;
+    height: auto;
+ }
+ 
+ .details{
+    background-color: white;
+    padding: 40px;
+ }
 
+ #label{
+    color: hsl(228, 12%, 48%);
+   letter-spacing: 5px;
+ }
+ .price{
+    align-items: center;
+ }
+ .price h1{
+    padding-right: 20px;
+    color: hsl(158, 36%, 37%);
+ }
+ button{
+    padding: 20px;
+    border-radius: 10px;
+    border: 0px ;
+    color: white;
+    background-color: hsl(158, 36%, 37%);;
+ }
+ button img{
+    width: 20px;
+    padding-right: 10px;
+
+ }
+
+.row-centre{
+    align-items: center;
+}
+
+.column-centre{
+   justify-content: center;
+}
