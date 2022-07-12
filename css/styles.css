@@ -15,66 +15,149 @@ h1{
 font-family: 'Fraunces', serif;
 }
 
-.component{
-    margin: 100px 300px 0px 300px;
-    justify-content: center;
-
-
+.row-centre{
+    align-items: center;
 }
-.card{
-    overflow: hidden;
-    border-radius: 25px;
-    width: 750px;
-    height: auto;
 
-}
-.container{
-    display: flex;
+.column-centre{
+justify-content: center;
 }
 
 .column{
     flex-direction: column;
 }
 
- img {
-    width: 400px;
-    height: auto;
- }
- 
- .details{
-    background-color: white;
-    padding: 40px;
-    justify-content: space-evenly;
- }
-
- #label{
+#label{
     color: hsl(228, 12%, 48%);
-   letter-spacing: 5px;
- }
- .price{
+    letter-spacing: 5px;
+}
+
+
+.price{
     align-items: center;
- }
- .price h1{
+}
+.price h1{
     padding-right: 20px;
     color: hsl(158, 36%, 37%);
- }
- button{
-    padding: 20px;
-    border-radius: 10px;
-    border: 0px ;
-    color: white;
-    background-color: hsl(158, 36%, 37%);;
- }
- button img{
-    width: 20px;
-    padding-right: 10px;
-
- }
-
-.row-centre{
-    align-items: center;
 }
 
-.column-centre{
-   justify-content: center;
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+
+    .component{
+        justify-content: center;
+    }
+
+    .desktop{
+        display: none;
+        visibility: hidden;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .card{
+        flex-direction: column;  
+        background-color: white;
+        overflow: hidden;
+        border-radius: 25px;
+        width: 700px;
+        align-items: center;
+
+    }
+
+    img {
+        width: auto;
+  
+    }
+    .details{
+        padding: 50px;
+    }
+
+    button{
+        padding: 20px;
+        border-radius: 10px;
+        border: 0px ;
+        color: white;
+        background-color: hsl(158, 36%, 37%);;
+        width: 300px;
+    }
+    button img{
+        width: 20px;
+        padding-right: 10px;
+
+
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
 }
+
+
+
+
+
+@media screen and (min-width: 1400px) {
+
+    .mobile{
+        display: none;
+        visibility: hidden;
+    }
+
+    .component{
+        margin: 3% 300px 0px 300px;
+        justify-content: center;
+
+
+    }
+    .card{
+        overflow: hidden;
+        border-radius: 25px;
+        width: 750px;
+        height: auto;
+
+    }
+    .container{
+        display: flex;
+    }
+
+
+
+    img {
+        width: 400px;
+        height: auto;
+    }
+    
+    .details{
+        background-color: white;
+        padding: 40px;
+        justify-content: space-evenly;
+    }
+
+
+    button{
+        padding: 20px;
+        border-radius: 10px;
+        border: 0px ;
+        color: white;
+        background-color: hsl(158, 36%, 37%);;
+    }
+    button img{
+        width: 20px;
+        padding-right: 10px;
+
+    }
+
+
+}
+
