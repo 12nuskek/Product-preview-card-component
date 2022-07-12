@@ -68,12 +68,18 @@ justify-content: center;
         border-radius: 25px;
         width: 700px;
         align-items: center;
+        max-width: 400px;
 
     }
 
     img {
-        width: auto;
-  
+
+      
+            max-height: 300px;
+            max-width: 400px;
+            overflow: hidden;
+        
+       
     }
     .details{
         padding: 50px;
@@ -97,6 +103,10 @@ justify-content: center;
     .btn-container{
         display: flex;
         justify-content: center;
+    }
+
+    .cart{
+        height: auto;
     }
 
 
